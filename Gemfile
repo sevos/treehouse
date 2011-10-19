@@ -33,6 +33,7 @@ gem 'rails-backbone'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development, :test do
+  gem 'thin'
   gem 'rspec-rails'
   gem 'cucumber-rails'
   gem 'capybara-webkit'
