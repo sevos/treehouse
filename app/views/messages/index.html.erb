@@ -3,6 +3,6 @@
 <script type="text/javascript">
   $(function() {
     window.router = new Treehouse.Routers.MessagesRouter({messages: <%= @messages.to_json.html_safe -%>});
-    Backbone.history.start();
+    Backbone.history.start()
   });
 </script>

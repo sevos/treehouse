@@ -1,0 +1,22 @@
+#messages
+  p.message
+    margin: 5px 10px
+    border: 1px dotted grey
+    span.author
+      font-weight: bolder
+
+  $width: 500px
+  border: 1px solid black
+  width: $width
+  #messages-index
+    height: 400px
+    width: $width
+    overflow: auto
+  #new-message
+    width: $width
+    input#message-author
+      width: 75px
+    input#message-body
+      width: $width - 140px
+    input#message-send
+      width: 35px
